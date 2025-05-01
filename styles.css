@@ -1,0 +1,86 @@
+/* Background Styling */
+body {
+    background: url('https://images.pexels.com/photos/4197563/pexels-photo-4197563.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form Container (Rectangular Shape) */
+.container {
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+    padding: 30px;
+    border-radius: 20px; /* Slightly rounded corners */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    width: 425px; /* Makes it more rectangular */
+    max-height: 850px; /* Controls height */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Input Fields */
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 2px solid #0099ff;
+    border-radius: 5px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.5);
+    color: #003366;
+}
+
+/* Gender Selection (Displayed Horizontally) */
+.gender-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjusts spacing between options */
+    align-items: center;
+    margin-top: 10px;
+}
+
+.gender-container label {
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.gender-container input {
+    width: auto;
+    margin: 0;
+}
+
+/* Signup Button */
+button {
+    background: linear-gradient(to right, #0033cc, #0099ff);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 90%;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(to right, #001a66, #0066cc);
+}
+
+/* Form Heading */
+h2 {
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0057b8;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
